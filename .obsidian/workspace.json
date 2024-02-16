@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "c3915fc49ac8b23d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3ca98b5df76130e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac62f264e8de20c2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6de46315295b5776",
+    "type": "split",
+    "children": [
+      {
+        "id": "496deb8f2e8ed125",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dcc651c30070b7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7496afcbedf8acad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0eaf38bf97ad05a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f63baf110529880",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03c8694e3eaa5524",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c7948bd8fdb69da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7216fece4e412f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59a85710e370736e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a237de3609529a45",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f736ba245ceb9927",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ac62f264e8de20c2",
+  "lastOpenFiles": [
+    "content/Readme.md",
+    "content/index.md",
+    "content/Cyber Tricks/Introduction.md",
+    "content/Cyber Tricks/Index.md",
+    "content/Cyber Tricks",
+    "content",
+    "public/404.html",
+    "public/static/og-image.png",
+    "public/static/icon.png",
+    "public/static/contentIndex.json",
+    "public/static",
+    "public/index.xml",
+    "public/sitemap.xml",
+    "public/tags/index.html",
+    "public/index.html",
+    "public/Readme.html",
+    "node_modules/lightningcss-win32-x64-msvc/README.md",
+    "node_modules/@esbuild/win32-x64/README.md",
+    "node_modules/@napi-rs/simple-git-win32-x64-msvc/README.md",
+    "node_modules/simple-git/readme.md",
+    "templates/chapter.md"
+  ]
+}

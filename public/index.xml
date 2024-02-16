@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>💻 Cyber Tricks</title>
+      <link>https://https://jvrajunior.github.io/Cyber-Tricks-Public/</link>
+      <description>Last 10 notes on 💻 Cyber Tricks</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/</guid>
+    <description>Esse é um repositório criado com a finalidade de compartilhar conhecimento com dicas para exploração de vulnerabilidades. As notas etão sendo publicadas utilizando o projeto Quartz.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>WWBuddy - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/WWBuddy/WWBuddy---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/WWBuddy/WWBuddy---Write-up</guid>
+    <description>Enumeração dos serviços: Criação de uma conta com payload SQLi: teste&#039; OR 1=1# Resete de senha, dessa forma reseta a senha de todos os usuários. Login na conta wwbuddy Descoberta de novos usuários: henry e roberto Login na conta henry e acesso ao diretório /admin.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Relevant - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Relevant/Relevant---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Relevant/Relevant---Write-up</guid>
+    <description>Enumeração dos erviços: Listagem das pastas compartilhadas: Conexão com pasta remota e extração do arquivo passwords.txt: Decodificação das senhas: Bob:!P@$$W0rD!123 Bill:Juw4nnaM4n420696969!$$$ Validando as credenciais: A pasta compartilhada via SMB é acessada via web na porta 49663.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Pickle Rick - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Pickle-Rick/Pickle-Rick---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Pickle-Rick/Pickle-Rick---Write-up</guid>
+    <description>Enumeração de serviços: Listagem de diretórios e arquivos: Descoberta de usuário no código fonte: Descoberta da senha em /robots.txt: Login no painel em /login.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Lockdown - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Lockdown/Lockdown---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Lockdown/Lockdown---Write-up</guid>
+    <description>Enumeração dos serviços: Adicionamos contacttracer.thm ao arquivo /etc/hosts Enumeração de diretórios e arquivos: Bypass na tela de login utilizando SQLi: &#039; OR 1=1#.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Gotta Catch&#039;em All! - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Gotta-Catch'em-All!/Gotta-Catch'em-All!---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Gotta-Catch'em-All!/Gotta-Catch'em-All!---Write-up</guid>
+    <description>Enumeração de serviços: .</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Gallery - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Gallery/Gallery---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Gallery/Gallery---Write-up</guid>
+    <description>Enumeração dos serviços: Exploit do CMS Simple Image Gallery: https://www.exploit-db.com/exploits/50214 http://10.10.224.196/gallery/uploads/1706483700_TagoxqanwzqgxdxrjciLetta.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>DogCat - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/DogCat/DogCat---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/DogCat/DogCat---Write-up</guid>
+    <description>Enumeração de serviços: Identificação do uso de include no parâmetro view. LFI utilizando filter para carregar o arquivo PHP que carrega as imagens. No código é possível identificar dois requisitos na URL, a palavra cat ou dog e uso de ext, dessa forma identificamos o log do apache e evoluímos pra uma RCE.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>ColddBox - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/ColddBox/ColddBox---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/ColddBox/ColddBox---Write-up</guid>
+    <description>Enumeração dos serviços: Wordpress 4.1.31 wpscan --url $RHOST Descoberta de usuários: Brute force: c0ldd:9876543210 Login no Dashboard do wordpress e shell reversa através da página 404.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item><item>
+    <title>Archangel - Write-up</title>
+    <link>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Archangel/Archangel---Write-up</link>
+    <guid>https://https:/jvrajunior.github.io/Cyber-Tricks-Public/Write-up/Try-Hack-Me/Archangel/Archangel---Write-up</guid>
+    <description>Enumeração dos serviços: Descoberta de um hostname: Inclusão do hostname em etc/hosts: Flag 1: Enumeração de diretórios e arquivos, com descoberta da página /test.</description>
+    <pubDate>Fri, 16 Feb 2024 00:16:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

@@ -1,4 +1,3 @@
-
 `find / -name $arquivo 2>/dev/null` Procura por um arquivo pelo nome.  
 `find / -type d -name $diretorio 2>/dev/null` Procura por um diretório pelo nome.  
 `find / -type f -perm 0777 2>/dev/null` Encontra arquivos com permissão total (Leitura, gravação e execução por todos usuários)  

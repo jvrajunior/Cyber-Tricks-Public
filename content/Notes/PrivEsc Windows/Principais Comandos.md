@@ -6,8 +6,10 @@
 `systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"` Verifica nome e versão do Windows  
 `route PRINT` Verificar as rotas de rede da máquina  
 `netstat -ano` Verificar as conexões TCP e UDP  
+`netstat -an | findstr "LISTENING"` Filtrar apenas as portas abertas localmente
 `dir /R` Verificar arquivos com stream  
 `powershell Get-Content -Path "hm.txt" -Stream "root.txt"` Extrair stream de arquivos  
+`net user <USER>` Verificar 
 
 ## Ref:  
 https://nored0x.github.io/red-teaming/windows-enumeration/  

